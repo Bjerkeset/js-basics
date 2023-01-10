@@ -34,5 +34,29 @@ for(let tenToTwenty = 10; tenToTwenty <=20; tenToTwenty++){
     } else {}
 }
 
+//Function (arrow)
+fastCars = (car1, car2, car3) => {
+    console.log(` The ${car1} is faster then  the ${car2}. a ${car3} is faster then both`)
+}
+fastCars("bmw", "merc", "tesla")
+// fastCars("ferrari", "fiat");
+// fastCars("volvo", "telsa");
+
+
+function ageCalc(born, year){
+    const sum = born - year
+}
+
+
+function coldDay(todaysTemp) {
+    if (todaysTemp < 5) {
+        console.log("today is a cold day")
+    } else {
+        console.log("today its not to cold")
+    }
+}
+coldDay(2);
+
+
 
 
